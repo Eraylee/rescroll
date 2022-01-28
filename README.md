@@ -1,4 +1,4 @@
-# escroll
+# rescroll
 
 ## Getting Started
 
