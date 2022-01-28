@@ -1,0 +1,6 @@
+body {
+  --pull-up-loading-load-more-bg-padding: 12px 0;
+  --pull-up-loading-load-more-bg-color: #f3f6f9;
+  --pull-up-loading-load-more-font-size: 14px;
+  --pull-up-loading-load-more-font-color: rgb(32, 38, 45);
+}

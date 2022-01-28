@@ -6,7 +6,6 @@ import { jsx } from '@emotion/react';
 import { useScrollTarget } from '../hooks/scroll';
 import { LoadMore } from './LoadMore';
 import { bem } from '../utils/bem';
-
 const isWindow = (node: Window | HTMLElement): node is Window => node === window;
 
 export interface PullUpLoadingProps {

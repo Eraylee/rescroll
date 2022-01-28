@@ -31,7 +31,7 @@ export default () => {
 
   const handleLoadMore = async () => {
     const data = await getMockData();
-    if (id >= 100) {
+    if (id >= 40) {
       setNoMore(true);
     }
     setList([...list, ...data]);

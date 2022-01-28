@@ -6,12 +6,12 @@ export const style = css`
   .${prefix} {
     &_load-more {
       margin: 0;
-      padding: 12px 0;
+      padding: var(--pull-up-loading-load-more-bg-padding);
       text-align: center;
-      background-color: #f3f6f9;
-      span {
-        color: rgb(32, 38, 45);
-        font-size: 12px;
+      background-color: var(--pull-up-loading-load-more-bg-color);
+      & > span {
+        color: var(--pull-up-loading-load-more-font-color);
+        font-size: var(--pull-up-loading-load-more-font-size);
       }
     }
   }
