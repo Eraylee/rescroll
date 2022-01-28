@@ -1,13 +1,13 @@
 import '@testing-library/jest-dom';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { PullUpLoading } from './index';
+import { InfiniteScroll } from './index';
 
-describe('<PullUpLoading />', () => {
+describe('<InfiniteScroll />', () => {
   it('render Foo with dumi', () => {
     const msg = 'dumi';
 
-    render(<PullUpLoading />);
+    render(<InfiniteScroll />);
     expect(screen.queryByText(msg)).toBeInTheDocument();
   });
 });

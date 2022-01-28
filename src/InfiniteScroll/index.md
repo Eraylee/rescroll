@@ -5,7 +5,7 @@ Demo:
 ```tsx
 /** @jsx jsx */
 import React, { useState, useEffect, useCallback } from 'react';
-import { PullUpLoading } from 'rescroll';
+import { InfiniteScroll } from 'rescroll';
 import { css, jsx } from '@emotion/react';
 
 let id = 0;
@@ -38,13 +38,13 @@ export default () => {
   };
 
   return (
-    <PullUpLoading onLoad={handleLoadMore} noMore={noMore}>
+    <InfiniteScroll onLoad={handleLoadMore} noMore={noMore}>
       {list.map((item) => (
         <div key={item} css={style}>
           {item}
         </div>
       ))}
-    </PullUpLoading>
+    </InfiniteScroll>
   );
 };
 ```

@@ -6,9 +6,11 @@ import { jsx } from '@emotion/react';
 import { useScrollTarget } from '../hooks/scroll';
 import { LoadMore } from './LoadMore';
 import { bem } from '../utils/bem';
+import './var.css';
+
 const isWindow = (node: Window | HTMLElement): node is Window => node === window;
 
-export interface PullUpLoadingProps {
+export interface InfiniteScrollProps {
   /**
    * @description.zh-CN 组件额外的 className
    * @description.en-US Extra className
@@ -37,7 +39,7 @@ export interface PullUpLoadingProps {
   loadMoreContent?: JSX.Element;
 }
 
-export const PullUpLoading: FC<PullUpLoadingProps> = ({
+export const InfiniteScroll: FC<InfiniteScrollProps> = ({
   noMore,
   className,
   onLoad,
@@ -93,7 +95,7 @@ export const PullUpLoading: FC<PullUpLoadingProps> = ({
   );
 };
 
-PullUpLoading.defaultProps = {
+InfiniteScroll.defaultProps = {
   noMore: false,
   offset: 0,
 };
