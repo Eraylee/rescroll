@@ -1,0 +1,6 @@
+body {
+  --infinite-scroll-load-more-bg-padding: 12px 0;
+  --infinite-scroll-load-more-bg-color: #f3f6f9;
+  --infinite-scroll-load-more-font-size: 14px;
+  --infinite-scroll-load-more-font-color: rgb(32, 38, 45);
+}
