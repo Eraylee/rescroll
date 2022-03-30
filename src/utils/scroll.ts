@@ -12,3 +12,9 @@ export const getScrollTarget = (element: HTMLElement): HTMLElement | Window => {
 
   return window;
 };
+// 获取顶部距离
+export const getScrollTop = (element: ReturnType<typeof getScrollTarget>) => {
+  const top = 'scrollTop' in element ? element.scrollTop : element.pageYOffset;
+  // iOS scroll bounce cause minus scrollTop
+  return Math.max(top, 0);
+};
