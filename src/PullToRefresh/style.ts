@@ -5,7 +5,9 @@ export const prefix = 'rescroll-pull-to-refresh';
 export const style = css`
   .${prefix} {
     &_head {
-      background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 `;
