@@ -1,8 +1,6 @@
-/** @jsx jsx */
 import React, { FC, useRef, useEffect, useCallback, useState } from 'react';
 import clsx from 'clsx';
 import { prefix, style } from './style';
-import { jsx } from '@emotion/react';
 import { useScrollTarget } from '../hooks/scroll';
 import { LoadMore } from './LoadMore';
 import { bem } from '../utils/bem';

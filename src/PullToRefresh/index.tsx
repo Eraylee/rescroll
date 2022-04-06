@@ -1,8 +1,6 @@
-/** @jsx jsx */
 import { FC, useRef, TouchEventHandler, useState, useMemo } from 'react';
 import clsx from 'clsx';
 import { prefix, style } from './style';
-import { jsx } from '@emotion/react';
 import { useSpring, animated } from 'react-spring';
 import { bem } from '../utils/bem';
 import { useScrollTarget } from '../hooks/scroll';

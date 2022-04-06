@@ -1,7 +1,6 @@
 Demo:
 
 ```tsx
-/** @jsx jsx */
 import React, { useState, useEffect, useCallback } from 'react';
 import { InfiniteScroll } from 'rescroll';
 import { css, jsx } from '@emotion/react';
