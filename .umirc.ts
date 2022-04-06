@@ -6,8 +6,13 @@ export default defineConfig({
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
-  extraBabelPresets: ['@babel/preset-typescript', '@babel/preset-react'],
-  extraBabelPlugins: ['babel-plugin-typescript-to-proptypes'],
+  extraBabelPresets: [
+    [
+      '@umijs/deps/compiled/babel/preset-react',
+      { runtime: 'automatic', importSource: '@emotion/react' },
+    ],
+  ],
+  extraBabelPlugins: ['@emotion/babel-plugin'],
   themeConfig: {
     carrier: 'dumi', // 设备状态栏左侧的文本内容
     hd: {
