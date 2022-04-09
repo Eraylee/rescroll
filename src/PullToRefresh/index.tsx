@@ -5,6 +5,7 @@ import { useSpring, animated } from 'react-spring';
 import { bem } from '../utils/bem';
 import { useScrollTarget } from '../hooks/scroll';
 import { getScrollTop } from '../utils/scroll';
+import './var.css';
 
 export enum RefreshStatus {
   None,

@@ -10,17 +10,16 @@ export const style = css`
       top: 0;
       width: 100%;
       overflow: hidden;
-      background-color: whitesmoke;
-
-      /* background-color: red; */
+      background-color: var(--pull-to-refresh-head-bg-color);
       &_info {
         display: flex;
         align-items: flex-end;
         justify-content: center;
         box-sizing: border-box;
         height: 100%;
-        padding-bottom: 8px;
-        font-size: 12px;
+        padding: var(--pull-to-refresh-head-info-padding);
+        color: var(--pull-to-refresh-head-info-font-color);
+        font-size: var(--pull-to-refresh-head-info-font-size);
       }
     }
     &_wrapper {

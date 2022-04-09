@@ -1,0 +1,6 @@
+body {
+  --pull-to-refresh-head-bg-color: #f3f6f9;
+  --pull-to-refresh-head-info-padding: 0 0 8px 0;
+  --pull-to-refresh-head-info-font-size: 14px;
+  --pull-to-refresh-head-info-font-color: rgb(32, 38, 45);
+}
