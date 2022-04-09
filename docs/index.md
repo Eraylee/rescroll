@@ -1,1 +1,3 @@
-## Hello rescroll!
+## 介绍
+
+用于 React 移动端长列表的组件库。
