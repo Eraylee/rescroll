@@ -12,13 +12,11 @@ export interface InfiniteScrollProps {
   /**
    * @description.zh-CN 组件额外的 className
    * @description.en-US Extra className
-   * @default
    */
   className?: string;
   /**
    * @description.zh-CN 是否有更多数据
    * @description.en-US Is there no more data
-   * @default           false
    */
   noMore?: boolean;
   /**
@@ -30,10 +28,12 @@ export interface InfiniteScrollProps {
   /**
    * @description.zh-CN 偏移量
    * @description.en-US Load event
-   * @default           0
    */
   offset?: number;
-
+  /**
+   * @description.zh-CN 自定义加载更多 Loading 内容
+   * @description.en-US Custom load more Loading content
+   */
   loadMoreContent?: JSX.Element;
 }
 
