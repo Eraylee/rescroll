@@ -1,4 +1,10 @@
-Demo:
+# 无限滚动组件
+
+## 介绍
+
+用于展示列表并加载分页数据，当列表滚动触底时，触发加载事件。
+
+## 使用示例:
 
 ```tsx
 import React, { useState, useEffect, useCallback } from 'react';
