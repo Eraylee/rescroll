@@ -40,6 +40,7 @@
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
     "@umijs/fabric": "^2.8.1",
+    "@umijs/plugin-esbuild": "^1.4.1",
     "@umijs/test": "^3.0.5",
     "babel-plugin-typescript-to-proptypes": "^2.0.0",
     "cz-conventional-changelog": "^3.3.0",
