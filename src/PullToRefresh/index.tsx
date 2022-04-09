@@ -18,43 +18,36 @@ export interface PullToRefreshProps {
   /**
    * @description.zh-CN 组件额外的 className
    * @description.en-US Extra className
-   * @default
    */
   className?: string;
   /**
    * @description.zh-CN 拖动触发更新距离
    * @description.en-US Pull to trigger update distance
-   * @default
    */
   distance?: number;
   /**
    * @description.zh-CN  是否禁用拖动功能
    * @description.en-US Whether to disable the drag function
-   * @default
    */
   disabled?: boolean;
   /**
    * @description.zh-CN  下拉状态提示文本
    * @description.en-US Pulling status prompt text
-   * @default
    */
   pullingText?: string | JSX.Element;
   /**
    * @description.zh-CN  释放状态提示文本
    * @description.en-US Release status prompt text
-   * @default
    */
   releaseText?: string | JSX.Element;
   /**
    * @description.zh-CN  刷新状态提示文本
    * @description.en-US Refreshing status prompt text
-   * @default
    */
   refreshingText?: string | JSX.Element;
   /**
    * @description.zh-CN  刷新事件
    * @description.en-US Refresh event
-   * @default
    */
   onRefresh?: () => Promise<void>;
 }
