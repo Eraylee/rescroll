@@ -1,4 +1,10 @@
-Demo:
+# 下拉刷新组件
+
+## 介绍
+
+用于展示列表并刷新列表数据，当列表处于顶点，拉动列表并释放触发刷新事件。
+
+## 使用示例:
 
 ```tsx
 import React, { useState, useEffect, useCallback } from 'react';
