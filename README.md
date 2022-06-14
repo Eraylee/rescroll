@@ -1,6 +1,6 @@
-# rescroll
+# Rescroll
 
-用于 React 移动端长列表的组件库。
+用于 React 移动端长列表的组件库。 [查看文档首页](rescroll.vercel.app)
 
 ## [InfiniteScroll](https://github.com/Eraylee/rescroll/blob/main/src/InfiniteScroll/index.md)
 
